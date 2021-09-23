@@ -35,7 +35,7 @@ THEN the saved events persist
 
 
 ## Website Preview
-![Website Image.](https://github.com/Leci1259/HW5-WorkPlannerScheduler/blob/main/Assets/IMG/SS.jpg)
+![Website Image.](https://github.com/Leci1259/HW5-WorkDayScheduler/blob/main/Assets/Img/SS.jpg)
 
 
 ## Website Link
