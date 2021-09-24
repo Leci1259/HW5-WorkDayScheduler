@@ -8,12 +8,12 @@ displayToday.textContent= today.format("dddd, MMMM do");
 
 //grabs current hour
 var hour = today.format("HH");
-console.log(hour);
+
 //grabs all the data attribute elements
 var blocks = $('[data-time]')
 
 for (var i =0; i<blocks.length; i++) {
-    console.log(i)
+    
     
     //grabs specific block
     var oneBlock = blocks[i];
@@ -33,7 +33,8 @@ if (val < hour) {
 else if (val == hour) {
 
     // changes background color
-    oneBLock.style.backgroundColor='#fd7b02';
+    oneBlock.style.backgroundColor='#fd7b02';
+    oneBlock.children().first().style.color = "white";
 }
 };
 
