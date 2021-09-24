@@ -66,17 +66,19 @@ for (i of saveButtons) {
     time: [],
   };
     /*if there was data to pulled from local storage
-    if (storedEvents !== undefined)  {
+    if (storedEvents !== undefined)  { 
 
-        //grab index of the data attribute in object and place it in correct matching div textarea 
-
-
-
+        for each item in the storedEvent.time array, find the text area with the matching id and change its textContent to the value of the storedEvents.task array for the same index
   }*/
  
 
+
 /*
+To Do
+Debug local storage set up: not tranversing correctly
+
 Need to grab local storage and set task back based on data attributes
+error with correctly grabbing items
 
 
     
