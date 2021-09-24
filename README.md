@@ -40,3 +40,7 @@ THEN the saved events persist
 
 ## Website Link
 https://leci1259.github.io/HW5-WorkPlannerScheduler/
+
+## Collaborators
+Kelsey Perkins, https://github.com/kperkins97/
+Reagin Turner, https://github.com/Reagintaylor
