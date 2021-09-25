@@ -76,7 +76,7 @@ for (i of saveButtons) {
         function init() {
             //if local storage data was pulled
         if (storedEvents !==null) {
-        for (i of storedEvents.time) {
+        for (var i=0;i < storedEvents.time;i++) {
             //get attribute number from local storage
             var attribute = storedEvents.time[i];
             console.log=(attribute)
