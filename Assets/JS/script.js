@@ -43,7 +43,11 @@ else if (val == hour) {
 //save event function
 //grabs all buttons
 var saveButtons = document.querySelectorAll(".saveBtn")
-
+var storedEvents = JSON.parse(localStorage.getItem("storedEvents")) || {
+    task: [],
+    time: [],
+  };   
+  
 //loop for all buttons
 for (i of saveButtons) {
     i.addEventListener('click', function(event) {
@@ -67,10 +71,8 @@ for (i of saveButtons) {
      //set local storage on page
      //set up object either from scratch or local storage
      
-     var storedEvents = JSON.parse(localStorage.getItem("storedEvents")) || {
-    task: [],
-    time: [],
-  };
+     
+ 
         function init() {
             //if local storage data was pulled
         if (storedEvents !==null) {
