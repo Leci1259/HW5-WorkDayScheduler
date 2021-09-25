@@ -89,7 +89,7 @@ for (i of saveButtons) {
                 //if block value matches with local storage attr value
                 if (blockVals == attribute) {
                     //set the text content on that block to the task listed in local storage
-                 $(blocks[x]).children().eq[2].textContent = storedEvents.task[i]   
+                 $(blocks[x]).children().eq[2].text(storedEvents.task[i])  
                 }
             }
         }
