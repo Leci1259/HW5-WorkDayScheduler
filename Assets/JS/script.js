@@ -66,13 +66,14 @@ for (i of saveButtons) {
   }
      //set local storage on page
      //set up object either from scratch or local storage
-     function init() {
+     
      var storedEvents = JSON.parse(localStorage.getItem("storedEvents")) || {
     task: [],
     time: [],
   };
-        //if local storage data was pulled
-        if (storedEvents !==undefined) {
+        function init() {
+            //if local storage data was pulled
+        if (storedEvents !==null) {
         for (i of storedEvents.time) {
             //get attribute number from local storage
             var attribute = storedEvents.time[i];
