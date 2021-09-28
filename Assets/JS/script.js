@@ -76,26 +76,28 @@ for (i of saveButtons) {
         function init() {
             //if local storage data was pulled
         if (storedEvents !==null) {
-        for (var i=0;i < storedEvents.time;i++) {
+        for (var i=0; i < storedEvents.time;i++) {
             //get attribute number from local storage
             var attribute = storedEvents.time[i];
+            var textAreas= $('textarea')
             console.log=(attribute)
             
             for (var x = 0; x < blocks.length;x++) {
                
                 //gets value from data blocks
                 var blockVals = $(blocks[x]).attr('data-time')
-                console.log= (blockVals)
+                
                 //if block value matches with local storage attr value
                 if (blockVals == attribute) {
                     //set the text content on that block to the task listed in local storage
-                 $(blocks[x]).children().eq[2].text(storedEvents.task[i])  
+                    $(textAreas[x]).text(storedEvents.task[i])  
                 }
             }
         }
     }
 }
 init();
+
  
 
 

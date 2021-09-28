@@ -22,16 +22,15 @@ THEN the saved events persist
 ```
 
 ## My Process
-1. 
-2. 
-3. 
-4.
-5. 
-6. 
-7. 
-8. 
-9. 
-10.
+1. I added/formatted the time blocks to the HTML with the assistance of Bootstrap
+2. I added some icons to the page using Font Awesome
+3. I styled the page, Halloween themed using CSS
+4. I linked the HTML to JQuery and Moment.JS
+5. I added today's date to the page using Moment.js
+6. I set up a for loop for change the time blocks based on past,present, and future.
+7. I created a function to save the time block contents and data attribute on save button click
+8. I created a function to render the save contents to the page
+
 
 
 ## Website Preview
