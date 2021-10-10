@@ -1,25 +1,10 @@
 # HW5-WorkDayScheduler
 
 ## Description
-In this project I am given starter HTML and CSS code and tasked to transform it into a work day scheduler. I will allow the user to type in a task into a specific time block and save it to use for reference later.
+In this project I will allow the user to type in a task into a specific time block and save it to use for reference later.
 
-## Acceptance Criteria
-
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+## Technologies Used
+CSS, HTML,Javascript, Moment.js
 
 ## My Process
 1. I added/formatted the time blocks to the HTML with the assistance of Bootstrap
@@ -43,3 +28,12 @@ https://leci1259.github.io/HW5-WorkPlannerScheduler/
 ## Collaborators
 Kelsey Perkins, https://github.com/kperkins97/
 Reagin Turner, https://github.com/Reagintaylor
+
+## Questions
+Email Me or check out my repol if you have any questions!
+Email: Lesianareid@gmail.com
+[Github Repo](https://github.com/leci1259)
+
+## License
+Released under MIT License Copyright (c) 2013 Mark Otto. Copyright (c) 2017 Andrew Fong 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
